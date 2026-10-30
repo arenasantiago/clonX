@@ -1,0 +1,35 @@
+import type { Tweet } from "./types";
+
+
+export const mockTweets: Tweet[] = [
+  { id: 't1', authorId: 'u1', content: 'Hello clonX!', createdAt: '2026-10-30T14:00:00Z' },
+  { id: 't2', authorId: 'u2', content: 'Learning React Router today', createdAt: '2026-10-30T13:20:00Z' },
+  { id: 't3', authorId: 'u5', content: 'TypeScript 5.x asconst is simply beautiful. Change my mind.', createdAt: '2026-10-30T13:10:00Z' },
+  { id: 't4', authorId: 'u9', content: 'Writing microservices in Rust hits different. The compiler is your best friend.', createdAt: '2026-10-30T12:45:00Z' },
+  { id: 't5', authorId: 'u4', content: 'Spent 2 hours fixing a padding issue that was just a typo. Classic CSS.', createdAt: '2026-10-30T12:30:00Z' },
+  { id: 't6', authorId: 'u3', content: 'Neovim + black coffee = peak productivity morning.', createdAt: '2026-10-30T11:15:00Z' },
+  { id: 't7', authorId: 'u14', content: 'Looking for a Senior Frontend Developer (React / TS). Remote LATAM. DM me your CV! 🚀', createdAt: '2026-10-30T10:50:00Z' },
+  { id: 't8', authorId: 'u7', content: 'K8s cluster crashed at 8 AM. Best way to wake up, who needs caffeine?', createdAt: '2026-10-30T10:05:00Z' },
+  { id: 't9', authorId: 'u6', content: 'Just trained a new model and the accuracy actually went up on the test set. Am I dreaming?', createdAt: '2026-10-30T09:40:00Z' },
+  { id: 't10', authorId: 'u10', content: 'Flutter hot reload saves lives.', createdAt: '2026-10-30T09:15:00Z' },
+  { id: 't11', authorId: 'u25', content: 'Day 45 of documenting my dev journey: finally understood promises and async/await fully!', createdAt: '2026-10-30T08:30:00Z' },
+  { id: 't12', authorId: 'u12', content: 'Figma to Code plugins are getting scary good, but human touch is still unmatched.', createdAt: '2026-10-30T08:00:00Z' },
+  { id: 't13', authorId: 'u8', content: 'Product Tip: A feature is not successful just because it was shipped on time.', createdAt: '2026-10-30T07:22:00Z' },
+  { id: 't14', authorId: 'u11', content: 'Friendly reminder to update your dependencies and check for CVEs today.', createdAt: '2026-10-30T06:45:00Z' },
+  { id: 't15', authorId: 'u16', content: 'Automated tests passing locally but failing in Jenkins. Why are you like this?', createdAt: '2026-10-30T06:10:00Z' },
+  { id: 't16', authorId: 'u19', content: 'Standup meetings should strictly be 15 minutes. No exception.', createdAt: '2026-10-29T22:30:00Z' },
+  { id: 't17', authorId: 'u18', content: 'Exploring some smart contracts on Ethereum tonight. Web3 is quiet but building.', createdAt: '2026-10-29T21:15:00Z' },
+  { id: 't18', authorId: 'u1', content: 'Stuck on a LeetCode medium problem. Time to close the laptop and sleep on it.', createdAt: '2026-10-29T20:40:00Z' },
+  { id: 't19', authorId: 'u23', content: 'Container queries are a game changer for modern component-driven design.', createdAt: '2026-10-29T19:55:00Z' },
+  { id: 't20', authorId: 'u15', content: 'Pandas dataframe manipulation can be pure magic when you use vectorization.', createdAt: '2026-10-29T18:20:00Z' },
+  { id: 't21', authorId: 'u21', content: 'One-on-ones are the most important part of my week as a manager.', createdAt: '2026-10-29T17:05:00Z' },
+  { id: 't22', authorId: 'u24', content: 'Monolith vs Microservices is a budget and team size question, not a tech choice.', createdAt: '2026-10-29T15:30:00Z' },
+  { id: 't23', authorId: 'u2', content: 'Tailwind CSS makes prototyping so fast, I can never go back to vanilla CSS.', createdAt: '2026-10-29T14:12:00Z' },
+  { id: 't24', authorId: 'u13', content: 'Arch Linux install went smoothly. Today is a good day.', createdAt: '2026-10-29T13:00:00Z' },
+  { id: 't25', authorId: 'u5', content: 'Next.js Server Actions are growing on me, feels like RPC magic.', createdAt: '2026-10-29T11:45:00Z' },
+  { id: 't26', authorId: 'u17', content: 'Found a bug in production. It was mine. From 6 months ago.', createdAt: '2026-10-29T10:20:00Z' },
+  { id: 't27', authorId: 'u22', content: 'Reinforcement learning has some of the coolest visual outcomes in AI.', createdAt: '2026-10-29T09:05:00Z' },
+  { id: 't28', authorId: 'u20', content: 'Configuring BGP routing tables today. Networking is the true backbone.', createdAt: '2026-10-29T08:15:00Z' },
+  { id: 't29', authorId: 'u8', content: 'Great design cannot save a product that nobody actually wants to use.', createdAt: '2026-10-29T07:30:00Z' },
+  { id: 't30', authorId: 'u14', content: 'Be nice to recruiters, we are trying our best to map your talent to the right place!', createdAt: '2026-10-29T06:00:00Z' }
+]
