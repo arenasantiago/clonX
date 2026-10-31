@@ -19,7 +19,7 @@ export default function FollowerPage() {
     }
   return (
     <section>
-        <h1 className="text-2xl font-bold p-4">Followers</h1>
+        <h1 className="border-b border-slate-200 p-4 text-xl font-extrabold sm:px-6 sm:text-2xl">Followers</h1>
         {pageItems.map((follower)=> (
             <UserCard key={follower.id} user={follower} showFollowButton={canFollow(follower)}/>
         ))}

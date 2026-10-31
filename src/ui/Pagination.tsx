@@ -13,12 +13,12 @@ export default function Pagination({ page, totalPages, hasPrevious, hasNext, pre
         return null
     }
     return (
-    <nav aria-label="Pagination" className="flex items-center justify-between p-4">
-            <button onClick={previous} disabled={!hasPrevious} className="disabled:opacity-40">
+    <nav aria-label="Pagination" className="flex items-center justify-between gap-3 border-t border-slate-200 px-4 py-4 sm:px-6">
+            <button onClick={previous} disabled={!hasPrevious} className="min-h-11 rounded-full border border-slate-300 px-4 font-semibold text-slate-700 transition-colors hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40">
                 Previous
             </button>
-            <span>Page {page} of {totalPages}</span>
-            <button onClick={next} disabled={!hasNext} className="disabled:opacity-40">
+            <span className="text-sm font-medium text-slate-500">Page {page} of {totalPages}</span>
+            <button onClick={next} disabled={!hasNext} className="min-h-11 rounded-full border border-slate-300 px-4 font-semibold text-slate-700 transition-colors hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40">
                 Next
             </button>
         </nav>

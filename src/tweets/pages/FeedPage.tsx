@@ -11,8 +11,8 @@ export default function FeedPage() {
   const { pageItems, page, totalPages, hasPrevious, hasNext, previous, next } = usePagination(tweets);
 
   return (
-    <section>
-      <h1 className="p-4 text-2xl font-bold">Feed</h1>
+    <section className="min-h-full">
+      <h1 className="border-b border-slate-200 px-4 py-4 text-xl font-extrabold sm:px-6 sm:text-2xl">Feed</h1>
       {pageItems.map((tweet) => {
         const author = getUserById(tweet.authorId);
 

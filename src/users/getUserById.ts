@@ -1,4 +1,3 @@
-import React from 'react'
 import { mockUsers } from './mockUsers'
 
 export default function getUserById(id: string) {
