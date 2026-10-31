@@ -31,5 +31,15 @@ export const mockTweets: Tweet[] = [
   { id: 't27', authorId: 'u22', content: 'Reinforcement learning has some of the coolest visual outcomes in AI.', createdAt: '2026-10-29T09:05:00Z' },
   { id: 't28', authorId: 'u20', content: 'Configuring BGP routing tables today. Networking is the true backbone.', createdAt: '2026-10-29T08:15:00Z' },
   { id: 't29', authorId: 'u8', content: 'Great design cannot save a product that nobody actually wants to use.', createdAt: '2026-10-29T07:30:00Z' },
-  { id: 't30', authorId: 'u14', content: 'Be nice to recruiters, we are trying our best to map your talent to the right place!', createdAt: '2026-10-29T06:00:00Z' }
+  { id: 't30', authorId: 'u14', content: 'Be nice to recruiters, we are trying our best to map your talent to the right place!', createdAt: '2026-10-29T06:00:00Z' },
+  { id: 't31', authorId: 'u1', content: 'Started the clonX project', createdAt: '2026-10-19T15:00:00Z' },
+  { id: 't32', authorId: 'u1', content: 'Reading about React Router', createdAt: '2026-10-20T15:00:00Z' },
+  { id: 't33', authorId: 'u1', content: 'Git Flow finally makes sense', createdAt: '2026-10-21T15:00:00Z' },
+  { id: 't34', authorId: 'u1', content: 'Tailwind is growing on me', createdAt: '2026-10-22T15:00:00Z' },
+  { id: 't35', authorId: 'u1', content: 'Pagination bugs are humbling', createdAt: '2026-10-23T15:00:00Z' },
+  { id: 't36', authorId: 'u1', content: 'TypeScript generics are worth learning', createdAt: '2026-10-24T15:00:00Z' },
+  { id: 't37', authorId: 'u1', content: 'Coffee first, commits later', createdAt: '2026-10-25T15:00:00Z' },
+  { id: 't38', authorId: 'u1', content: 'Reusable components save so much time', createdAt: '2026-10-26T15:00:00Z' },
+  { id: 't39', authorId: 'u1', content: 'Always check the base branch of your PR', createdAt: '2026-10-27T15:00:00Z' },
+  { id: 't40', authorId: 'u1', content: 'Almost done with Milestone 1', createdAt: '2026-10-28T15:00:00Z' },
 ]
