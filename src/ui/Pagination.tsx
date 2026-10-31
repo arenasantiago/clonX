@@ -9,9 +9,11 @@ type PaginationProps = {
 
 
 export default function Pagination({ page, totalPages, hasPrevious, hasNext, previous, next }:PaginationProps) {
-  if(totalPages <= 1) {
-     return (
-        <nav aria-label="Pagination" className="flex items-center justify-between p-4">
+    if(totalPages <= 1) {
+        return null
+    }
+    return (
+    <nav aria-label="Pagination" className="flex items-center justify-between p-4">
             <button onClick={previous} disabled={!hasPrevious} className="disabled:opacity-40">
                 Previous
             </button>
@@ -20,7 +22,6 @@ export default function Pagination({ page, totalPages, hasPrevious, hasNext, pre
                 Next
             </button>
         </nav>
-    )
-  }
+        )
    
 }

@@ -4,7 +4,7 @@ export function usePagination<T>(items: T[], pageSize = 10) {
     const [searchParams, setSearchParams] = useSearchParams()
 
     const totalPages = Math.max(1, Math.ceil(items.length / pageSize))
-    const requested = Number(searchParams.get("page") ?? 1)
+    const requested = Number(searchParams.get("page") || 1)
     const page = Math.min(Math.max(requested, 1), totalPages)
 
     const pageItems = items.slice((page - 1) * pageSize, page * pageSize)
