@@ -22,8 +22,8 @@ export default function UserTweetsPage() {
     <section>
         <div>
             <div>
-                <h1></h1>
-                <p></p>
+                <h1 className="text-2x1 font-bold">{user.displayName}</h1>
+                <p className="mb-2 text-gray-500">@ {user.username}</p>
                 <UserCounter user={user}/>
             </div>
             {canFollow(user) && <FollowButton/>}
