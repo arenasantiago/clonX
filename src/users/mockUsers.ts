@@ -1,7 +1,7 @@
-import type { Users } from './types'
+import type { User } from './types'
 
-export const mockUsers: Users[] = [
-  { id: 'u1', username: 'santiago', displayName: 'Santiago Arenas', bio: 'Software engineering student', following: ['u2', 'u3', 'u5', 'u10'] },
+export const mockUsers: User[] = [
+  { id: 'u1', username: 'santiago', displayName: 'Santiago Arenas', bio: 'Software engineering student', following: ['u2', 'u3', 'u5', 'u7','u8','u9','u10','u11','u12','u14','u15','u17'] },
   // Los siguientes 11 usuarios siguen a 'u1'
   { id: 'u2', username: 'ana', displayName: 'Ana Gómez', bio: 'Frontend dev', following: ['u1', 'u4', 'u8'] },
   { id: 'u3', username: 'carlos', displayName: 'Carlos Ruiz', bio: 'Coffee and code', following: ['u1', 'u6'] },
