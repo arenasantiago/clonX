@@ -1,8 +1,7 @@
 import {Link} from "react-router";
-import {mockUsers} from "../users/mockUsers";
 
-// Temporal Login
-const currentUser = mockUsers[0];
+import { currentUser } from "../users/currentUser";
+
 
 export default function Header() {
     return(
