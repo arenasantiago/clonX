@@ -19,11 +19,11 @@ export default function UserTweetsPage() {
         return <p className="text-red-500 p-4">User not found</p>
     }
   return (
-    <section>
-        <div>
+    <section className="min-h-full">
+        <div className="flex items-center justify-between gap-4 border-b border-slate-200 px-4 py-5 sm:px-6">
             <div>
-                <h1 className="text-2x1 font-bold">{user.displayName}</h1>
-                <p className="mb-2 text-gray-500">@ {user.username}</p>
+                <h1 className="text-xl font-extrabold sm:text-2xl">{user.displayName}</h1>
+                <p className="mb-3 mt-1 text-sm text-slate-500">@{user.username}</p>
                 <UserCounter user={user}/>
             </div>
             {canFollow(user) && <FollowButton/>}

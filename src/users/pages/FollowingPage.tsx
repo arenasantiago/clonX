@@ -18,7 +18,7 @@ export default function FollowingPage() {
     }
   return (
     <section>
-        <h1 className="text-2xl font-bold p-4">Following</h1>
+        <h1 className="border-b border-slate-200 p-4 text-xl font-extrabold sm:px-6 sm:text-2xl">Following</h1>
         {pageItems.map((followed)=> (
             <UserCard key={followed.id} user={followed} />
         ))}
