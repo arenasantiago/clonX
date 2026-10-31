@@ -17,9 +17,9 @@ export const router = createBrowserRouter([
         children: [
             { index:true, element: <HomePage /> },
             {path: 'compose', element: <ComposeTweetPage />},
-            {path: 'users/:username/following', element: <FollowingPage /> },
-            {path: 'users/:username/followers', element: <FollowerPage /> },
-            {path: 'users/:username', element: <UserTweetsPage/>},
+            {path: 'user/:username/following', element: <FollowingPage /> },
+            {path: 'user/:username/followers', element: <FollowerPage /> },
+            {path: 'user/:username', element: <UserTweetsPage/>},
             {path: 'feed', element:<FeedPage/>}
         ]
     }
