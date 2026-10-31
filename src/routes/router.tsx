@@ -6,6 +6,7 @@ import LoginPage from '../auth/pages/LoginPage'
 import ComposeTweetPage from '../tweets/pages/ComposeTweetPage'
 import FollowingPage from '../users/pages/FollowingPage'
 import FollowerPage from '../users/pages/FollowerPage'
+import UserTweetsPage from '../users/pages/UserTweetsPage'
 
 export const router = createBrowserRouter([
     {path: '/login', element: <LoginPage/>},
@@ -16,7 +17,8 @@ export const router = createBrowserRouter([
             { index:true, element: <HomePage /> },
             {path: 'compose', element: <ComposeTweetPage />},
             {path: 'users/:username/following', element: <FollowingPage /> },
-            {path: 'users/:username/followers', element: <FollowerPage /> }
+            {path: 'users/:username/followers', element: <FollowerPage /> },
+            {path: 'users/:username', element: <UserTweetsPage/>}
         ]
     }
 ])
